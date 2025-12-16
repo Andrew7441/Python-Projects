@@ -4,15 +4,19 @@
 This repository contains small Python projects and exercises completed as part of a structured Python course. Each project is self-contained and demonstrates fundamental Python programming concepts.
 
 ## Project Structure
-- Each project is in its own folder.
+
+- Each project is in its own folder, using `snake_case` naming.
 - Trivial projects are kept here; larger or more complex projects may be promoted to their own repositories.
-- Example structure:
-python-projects/
+
+Example structure:
+```markdown
+python-course-projects/
 ├── hangman/
-│ └── main.py
+│   └── main.py
 ├── another_project/
-│ └── main.py
+│   └── main.py
 └── README.md
+```markdown
 
 ## Guidelines
 - Python files only; no generated files like `__pycache__/` or `.pyc`.
