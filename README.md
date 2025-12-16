@@ -16,7 +16,7 @@ python-course-projects/
 ├── another_project/
 │   └── main.py
 └── README.md
-
+```
 
 ## Guidelines
 - Python files only; no generated files like `__pycache__/` or `.pyc`.
