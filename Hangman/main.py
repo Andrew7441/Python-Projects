@@ -6,7 +6,6 @@ from hangmanwords import word_list
 print(logo)
 
 chosen_word = random.choice(word_list)
-print(chosen_word) 
 
 placeholder = ""
 for i in chosen_word:
@@ -30,8 +29,6 @@ while not game_over:
             display += letter
         else:
             display += "_"
-
-    print(display)
     
     if guess not in chosen_word:
         print(stages[lives])
@@ -43,3 +40,7 @@ while not game_over:
     if "_" not in display:
         print("You Win!")
         game_over = True
+    
+    print(display)
+
+print(f"The word was: {chosen_word}")
