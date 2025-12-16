@@ -6,7 +6,7 @@ from hangmanwords import word_list
 print(logo)
 
 chosen_word = random.choice(word_list)
-print(chosen_word) # testing
+print(chosen_word) 
 
 placeholder = ""
 for i in chosen_word:
