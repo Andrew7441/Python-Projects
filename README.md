@@ -32,7 +32,7 @@ cd "projectname"
 3. Run the ppython script:
 python main.py
 
-## How to Run a Project
+## Contributing
 
 This repository is primarily for personal learning and structured exercises. Contributions are not expected, but improvements for clarity or bug fixes are welcome.
 
