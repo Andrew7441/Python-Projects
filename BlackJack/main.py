@@ -38,6 +38,7 @@ def play_game():
     computer_score = -1
     user_score = -1
     game_over = False
+
     print(logo)
 
     for _ in range(2):
@@ -48,8 +49,8 @@ def play_game():
         user_score = calculate_score(user_cards)
         computer_score = calculate_score(comp_cards)
 
-        print(f"Your cards: {user_cards}, current score: {user_score}")
-        print(f"Computer first card: {comp_cards[0]}", end=\n\n)
+        print(f"\nYour cards: {user_cards}, current score: {user_score}")
+        print(f"Computer first card: {comp_cards[0]}")
 
         if user_score == 0 or computer_score == 0 or user_score > 21:
             game_over = True
@@ -64,12 +65,11 @@ def play_game():
         comp_cards.append(dealcards())
         computer_score = calculate_score(comp_cards)
 
-    print(f"Your final hand: {user_cards}, final score: {user_score}")
-    print(f"Computer final hand: {comp_cards}, Computer final score: {computer_score}")
+    print(f"\nYour final hand: {user_cards}, final score: {user_score}")
+    print(f"Computer final hand: {comp_cards}, Computer final score: {computer_score}\n")
     print(compare(user_score, computer_score))
 
 
-while input("Do you want to play a gam of blackjack? Type 'y' or 'n'") == 'y':
+while input("Do you want to play a gam of blackjack? Type 'y' or 'n': ").lower() == 'y':
     print("\n" * 20)
-    print(logo)
     play_game()
