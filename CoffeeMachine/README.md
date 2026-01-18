@@ -2,7 +2,7 @@
 Welcome to the Coffee Machine project! This simple Python script emulates a coffee machine that takes orders for espresso, latte, or cappuccino. Additionally, it responds to the commands 'report' to display the current status of ingredients and 'off' to gracefully shut down the machine, ending the script.
 
 ### Instructions
-'''
+'''python
 Run the coffee_machine.py script in your Python environment.
 
 Follow the on-screen prompts to place your order:
@@ -14,4 +14,4 @@ Use the following commands for additional functionalities:
     Type 'report' to view the current status of ingredients.
     Type 'off' to turn off the coffee machine and end the script.
 '''
-Enjoy your virtual coffee experience! ☕️
+Enjoy your virtual coffee experience!
