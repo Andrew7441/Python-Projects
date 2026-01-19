@@ -46,6 +46,7 @@ python main.py
 
 ### Instructions
 '''python
+
 Run the coffee_machine.py script in your Python environment.
 
 Follow the on-screen prompts to place your order:
@@ -56,5 +57,6 @@ Follow the on-screen prompts to place your order:
 Use the following commands for additional functionalities:
     Type 'report' to view the current status of ingredients.
     Type 'off' to turn off the coffee machine and end the script.
+    
 '''
 Enjoy your virtual coffee experience!
