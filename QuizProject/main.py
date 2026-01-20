@@ -13,6 +13,5 @@ quiz = QuizBrain(question_bank)
 while quiz.still_has_questions():
     quiz.nextQuestion()
 
-
 print("Quiz complete!")
 print(f"Final Score: {quiz.score}/{len(question_bank)}")
