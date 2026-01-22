@@ -27,8 +27,6 @@ Python (3.x) with the built-in turtle module.
 
 Save the script (e.g., main.py) and run:
 
-'''python
-
+```python
 python main.py
-
-'''
+```
