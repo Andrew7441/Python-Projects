@@ -30,6 +30,7 @@ while race_on:
             winning_color = t.pencolor()
             race_on = False
             break
+
         distance = randint(0, 10)
         t.forward(distance)   
 
