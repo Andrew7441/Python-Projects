@@ -10,7 +10,7 @@ Simple two-player Pong clone implemented with Python's turtle. Lightweight, depe
 - ball.py — Ball class
 - paddle.py — Paddle class
 - scoreboard.py — Scoreboard class
-- If your entry script has a different name, run that file instead of main.py.
+If your entry script has a different name, run that file instead of main.py.
 
 ## Run
 
